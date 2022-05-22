@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Tapestry&family=Water+Brush&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  font-family: "Roboto", sans-serif;
+  background: #EEEEEE;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 15px 0;
+}
+#header .header_general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header_general__nav {
+  height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #011F3A;
+  padding: 0 20px;
+}
+#header .header_general__nav:hover {
+  color: #013a35;
+}
+#header .header_general__btn {
+  display: flex;
+  align-items: center;
+}
+#header .header_general__btn a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #011F3A;
+  padding: 0 80px;
+}
+
+#hero {
+  background: #F2AE4D;
+  height: 750px;
+}
+#hero .hero_general__title {
+  display: flex;
+  justify-content: space-between;
+}
+#hero .hero_general__title__item {
+  margin-left: 120px;
+}
+#hero .hero_general__title__item__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 165px 0 33px 0;
+  color: #011F3A;
+}
+#hero .hero_general__title__item__p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #011F3A;
+  margin-bottom: 14px;
+}
+#hero .hero_general__title__item__btn {
+  width: 228px;
+  height: 56px;
+  border: none;
+  background: #3D5675;
+  border-radius: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#hero .hero_general__title__item__btn:hover {
+  color: #3D5675;
+  background: #fff;
+}
+#hero .hero_general__title__img {
+  margin-top: 87px;
+}
+
+#amazon {
+  height: 120px;
+  background: #fff;
+  margin: 0;
+}
+#amazon .amazon_general {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#amazon .amazon_general__items {
+  display: flex;
+  justify-content: center;
+}
+#amazon .amazon_general__items h4 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.6px;
+  margin-top: 25px;
+  color: #A1A1A1;
+}
+
+#products .products_general__btn {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #011F3A;
+}
+#products .products_general__btn button {
+  width: 248px;
+  height: 44px;
+  background: #3D5675;
+  border-radius: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: #fff;
+  margin: 57px 0 60px 538px;
+}
+#products .products_general__btn button:hover {
+  color: #3D5675;
+  background: #fff;
+}
+#products .products_general__btn2 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #A1A1A1;
+  margin: 46px 0 50px 527px;
+}
+#products .products_general__btn2 button {
+  width: 158px;
+  height: 44px;
+  background: #3D5675;
+  border-radius: 44px;
+  border: #fff;
+  color: #fff;
+  margin: 46px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+}
+#products .products_general__btn2 button:hover {
+  color: #3D5675;
+  background: #fff;
+}
+#products .products_general__item {
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#products .products_general__item__block {
+  width: 400px;
+  height: 432px;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  padding: 0 20px;
+}
+#products .products_general__item__block h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+}
+#products .products_general__item__block p {
+  width: 210px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #777777;
+  margin: 0;
+}
+#products .products_general__item__block__title {
+  display: flex;
+  justify-content: space-between;
+}
+#products .products_general__item__block__title h4 {
+  margin-left: 60px;
+  width: 210px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #777777;
+}
+
+#fast .fast_general {
+  width: 1200px;
+  height: 774px;
+  background: #72BDA3;
+  box-shadow: 0 14px 44px rgba(143, 143, 143, 0.25);
+  margin-left: 50px;
+}
+#fast .fast_general__title {
+  width: 700px;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 41px;
+  text-align: center;
+  color: #011F3A;
+  margin: 0 215px;
+  padding: 80px 50px;
+}
+#fast .fast_general__item {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 140px;
+}
+#fast .fast_general__item__block {
+  width: 300px;
+  height: 300px;
+  margin: 0 20px;
+}
+#fast .fast_general__item__block h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+}
+#fast .fast_general__item__block p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #3D5675;
+}
+#fast .fast_general button {
+  width: 220px;
+  height: 44px;
+  background: #3D5675;
+  border-radius: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  margin: 140px 500px;
+}
+
+#advantage .advantage_general {
+  margin-bottom: 200px;
+}
+#advantage .advantage_general__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  color: #011F3A;
+  margin: 90px 140px;
+}
+#advantage .advantage_general__item {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 140px;
+}
+#advantage .advantage_general__item__block {
+  width: 300px;
+  height: 300px;
+  margin: 0 20px;
+}
+#advantage .advantage_general__item__block h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+}
+#advantage .advantage_general__item__block p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #A1A1A1;
+}
+
+/*# sourceMappingURL=style.css.map */
